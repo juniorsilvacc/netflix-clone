@@ -1,0 +1,23 @@
+body, .bg-dark{
+    background-color: #1B1B1B !important;
+}
+
+.navbar .form-control{
+    background-color: #1B1B1B !important;
+    color: #FFF;
+    border-color: #FFF;
+    border-radius: 0;
+    max-width: 115px;
+    line-height: 28px;
+    height: 28px;
+}
+
+.navbar img{
+    height: 24px;
+}
+
+.navbar-dark .navbar-toggler{
+    color: #FFF;
+    border: none;
+    padding-right: 0;
+}
