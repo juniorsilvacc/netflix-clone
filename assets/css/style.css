@@ -4,6 +4,7 @@ body, .bg-dark{
 
 .navbar{
     position: relative;
+    z-index: 1000;
 }
 
 .navbar .form-control{
@@ -32,9 +33,16 @@ body, .bg-dark{
     background-color: #1B1B1B;
     position: absolute;
     top: 60px;
-    left: 0;
+    left: -250px;
     height: calc(100vh - 60px);
     overflow-y: auto;
+    transition: all 0.1s ease-out;
+    opacity: .5;
+}
+
+.navbar.sidebar-open ul{
+    left: 0;
+    opacity: 1;
 }
 
 .navbar ul li{
