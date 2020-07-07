@@ -86,3 +86,11 @@ body, .bg-dark{
     border: none;
     min-width: 100px;
 }
+
+.list-titles h2{
+    color: #999898;
+}
+
+.list-titles img{
+    min-width: 160px;
+}
